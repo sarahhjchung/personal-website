@@ -1,8 +1,8 @@
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from "./Home"
-import AboutMe from "./AboutMe"
-import Projects from "./Projects"
+import Home from "./views/Home";
+import AboutMe from "./views/AboutMe";
+import Projects from "./views/Projects";
 
 function App() {
   return (
