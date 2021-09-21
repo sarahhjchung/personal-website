@@ -49,7 +49,7 @@ const NavBar = (colour) => {
             className="cursor-pointer hover:opacity-50 inline float-left"
           />
         </a>
-        {windowWidth < 420 ? (
+        {windowWidth < 440 ? (
           <div>
             <Menu
               onClick={() => setIsExpanded(!isExpanded)}
@@ -58,7 +58,7 @@ const NavBar = (colour) => {
             {isExpanded && dropdown()}
           </div>
         ) : (
-          <div className="space-x-4">
+          <div className="space-x-4 flex items-center">
             <a
               href="/about"
               className={`hover:opacity-50 cursor-pointer font-bold text-${colour.colour}`}
