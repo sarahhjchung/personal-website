@@ -1,7 +1,5 @@
 import React from "react";
-
 import Icons from "../components/Icons";
-
 import { ReactComponent as Rewind } from "../assets/Rewind.svg";
 import { ReactComponent as MeHalf } from "../assets/MeHalf.svg";
 
@@ -27,25 +25,25 @@ function Home() {
             </h4>
             <a
               href="/about"
-              className="block hover:opacity-50 cursor-pointer font-bold text-home-main"
+              className="block hover:opacity-50 cursor-pointer font-bold text-yellow"
             >
               About me
             </a>
             <a
               href="/courses"
-              className="block hover:opacity-50 cursor-pointer font-bold text-home-main"
+              className="block hover:opacity-50 cursor-pointer font-bold text-yellow"
             >
               Courses I've Taken
             </a>
             <a
               href="/projects"
-              className="block hover:opacity-50 cursor-pointer font-bold text-home-main"
+              className="block hover:opacity-50 cursor-pointer font-bold text-yellow"
             >
               Projects
             </a>
             <a
               href="/work"
-              className="block hover:opacity-50 cursor-pointer font-bold text-home-main"
+              className="block hover:opacity-50 cursor-pointer font-bold text-yellow"
             >
               Work Experience
             </a>

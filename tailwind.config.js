@@ -25,16 +25,22 @@ module.exports = {
     },
     backgroundImage: {
       home: "url('assets/HomeBackground.svg')",
+      about: "url('assets/AboutBackground.svg')",
+      courses: "url('assets/CoursesBackground.svg')",
     },
     colors: {
-      home: {
-        main: "#FFBE0B",
-        bg: "#AFFB4E",
-      },
+      black: "#000000",
+      white: "#ffffff",
+      yellow: "#FFBE0B",
+      green: "#AFFB4E",
+      magenta: "#FE14BC",
+      darkblue: "#5678F4",
     },
     fill: (theme) => ({
-      yellow: theme("colors.home.main"),
-      green: theme("colors.home.bg"),
+      yellow: theme("colors.yellow"),
+      green: theme("colors.green"),
+      magenta: theme("colors.magenta"),
+      darkblue: theme("colors.darkblue"),
     }),
   },
   variants: {

@@ -1,12 +1,9 @@
 import React from "react";
-
 import { ReactComponent as Resume } from "../assets/Resume.svg";
 import { ReactComponent as Github } from "../assets/Github.svg";
 import { ReactComponent as Linkedin } from "../assets/Linkedin.svg";
 
 const Icons = (fillColour) => {
-  console.log(fillColour.fillColour);
-
   return (
     <div className={`float-right space-x-2`}>
       <Resume

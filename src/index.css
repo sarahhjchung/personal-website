@@ -15,7 +15,7 @@
   h4 {
     @apply text-xl;
   }
-  @font-face {
+  /* @font-face {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -62,7 +62,7 @@
     font-style: italic;
     font-weight: 900;
     src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
-  }
+  } */
 }
 
 @layer components {
