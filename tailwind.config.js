@@ -27,6 +27,8 @@ module.exports = {
       home: "url('assets/HomeBackground.svg')",
       about: "url('assets/AboutBackground.svg')",
       courses: "url('assets/CoursesBackground.svg')",
+      projects: "url('assets/ProjectsBackground.svg')",
+      work: "url('assets/WorkBackground.svg')",
     },
     colors: {
       black: "#000000",
@@ -36,12 +38,16 @@ module.exports = {
       magenta: "#FE14BC",
       darkblue: "#5678F4",
       teal: "#00EEFF",
+      red: "#FB5607",
+      purple: "#CE67FF",
     },
     fill: (theme) => ({
       yellow: theme("colors.yellow"),
       green: theme("colors.green"),
       magenta: theme("colors.magenta"),
       darkblue: theme("colors.darkblue"),
+      red: theme("colors.red"),
+      purple: theme("colors.purple"),
     }),
   },
   variants: {

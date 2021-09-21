@@ -49,7 +49,7 @@ const NavBar = (colour) => {
             className="cursor-pointer hover:opacity-50 inline float-left"
           />
         </a>
-        {windowWidth < 440 ? (
+        {windowWidth < 540 ? (
           <div>
             <Menu
               onClick={() => setIsExpanded(!isExpanded)}
