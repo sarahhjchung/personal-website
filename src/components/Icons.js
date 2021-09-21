@@ -5,7 +5,7 @@ import { ReactComponent as Linkedin } from "../assets/Linkedin.svg";
 
 const Icons = (fillColour) => {
   return (
-    <div className={`float-right space-x-2`}>
+    <div className={`ml-auto space-x-2`}>
       <Resume
         className={`cursor-pointer inline-block hover:opacity-50 w-8 h-8 px-1 ${fillColour.fillColour}`}
       />

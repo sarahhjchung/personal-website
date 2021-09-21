@@ -4,7 +4,7 @@ import { ReactComponent as MeSitting } from "../assets/MeSitting.svg";
 
 function AboutMe() {
   return (
-    <div className="bg-about h-screen w-screen bg-cover p-4 sm:p-12">
+    <div className="bg-about min-h-screen bg-cover p-4 sm:p-12">
       <div className="space-y-12">
         <NavBar colour="darkblue" />
         <h1 className="container italic font-bold">

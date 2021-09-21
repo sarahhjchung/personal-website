@@ -67,7 +67,7 @@
 
 @layer components {
   .container {
-    @apply px-8 md:px-28 lg:px-64;
+    @apply px-4 md:px-20 lg:px-48;
   }
 }
 /* body {

@@ -35,6 +35,7 @@ module.exports = {
       green: "#AFFB4E",
       magenta: "#FE14BC",
       darkblue: "#5678F4",
+      teal: "#00EEFF",
     },
     fill: (theme) => ({
       yellow: theme("colors.yellow"),

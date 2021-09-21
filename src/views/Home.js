@@ -5,9 +5,9 @@ import { ReactComponent as MeHalf } from "../assets/MeHalf.svg";
 
 function Home() {
   return (
-    <div className="bg-home h-screen w-screen bg-cover p-4 sm:p-12">
+    <div className="bg-home min-h-screen bg-cover p-4 sm:p-12">
       <div className="space-y-12">
-        <header className="inline-block container m-auto">
+        <header className="flex items-center container m-auto">
           <Rewind
             href="/"
             className="cursor-pointer hover:opacity-50 inline float-left"
