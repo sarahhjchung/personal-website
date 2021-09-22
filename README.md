@@ -1,3 +1,3 @@
 # Personal Website v2
 
-Still under construction and not yet deployed... 🔨
+Visit me at https://sarahchung.herokuapp.com
