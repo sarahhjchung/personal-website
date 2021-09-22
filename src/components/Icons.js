@@ -18,9 +18,11 @@ const Icons = (fillColour) => {
         </a>
       </Tooltip>
       <Tooltip title="My Resume" position="bottom" trigger="mouseenter">
-        <Resume
-          className={`cursor-pointer inline-block hover:opacity-50 w-8 h-8 px-1 ${fillColour.fillColour}`}
-        />
+        <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+          <Resume
+            className={`cursor-pointer inline-block hover:opacity-50 w-8 h-8 px-1 ${fillColour.fillColour}`}
+          />
+        </a>
       </Tooltip>
       <Tooltip title="My Github" position="bottom" trigger="mouseenter">
         <a
