@@ -5,6 +5,7 @@ import AboutMe from "./views/AboutMe";
 import Projects from "./views/Projects";
 import Courses from "./views/Courses";
 import Work from "./views/Work";
+import Construction from "./views/Construction";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           <Courses />
         </Route>
         <Route path="/work">
+          <Construction />
+        </Route>
+        <Route path="/working">
           <Work />
         </Route>
       </Switch>
