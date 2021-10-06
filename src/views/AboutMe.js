@@ -26,7 +26,7 @@ function AboutMe() {
               all creative things you can find in this large field!
             </p>
             <h4 className="font-bold italic mt-12"> Fun facts about me: </h4>
-            <ul className="list-disc font-semibold list-inside">
+            <ul className="font-semibold opacity-80 list-decimal italic list-inside">
               <li>I’ve had 5 different hair colours in my life so far</li>
               <li>My current favourite video game is Stardew Valley</li>
               <li>

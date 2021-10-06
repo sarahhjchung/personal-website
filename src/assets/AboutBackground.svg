@@ -1,6 +1,6 @@
 <svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect width="1440" height="1024" fill="white"/>
+<rect width="1440" height="1024" fill="#F8F9FF"/>
 <ellipse cx="1022.5" cy="471.5" rx="437.5" ry="471.5" fill="url(#paint0_radial)"/>
 <ellipse cx="333.5" cy="770.5" rx="352.5" ry="356.5" fill="url(#paint1_radial)"/>
 </g>

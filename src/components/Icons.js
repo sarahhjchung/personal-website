@@ -4,6 +4,7 @@ import { ReactComponent as Github } from "../assets/Github.svg";
 import { ReactComponent as Linkedin } from "../assets/Linkedin.svg";
 import { ReactComponent as Email } from "../assets/Email.svg";
 import { Tooltip } from "react-tippy";
+import resume from "../assets/Resume.pdf";
 
 import "react-tippy/dist/tippy.css";
 
@@ -18,7 +19,7 @@ const Icons = (fillColour) => {
         </a>
       </Tooltip>
       <Tooltip title="My Resume" position="bottom" trigger="mouseenter">
-        <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+        <a href={resume} target="_blank" rel="noreferrer">
           <Resume
             className={`cursor-pointer inline-block hover:opacity-50 w-8 h-8 px-1 ${fillColour.fillColour}`}
           />

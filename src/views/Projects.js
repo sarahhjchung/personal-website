@@ -10,6 +10,10 @@ import { ReactComponent as Fitapp } from "../assets/Fitapp.svg";
 import { ReactComponent as V2 } from "../assets/V2.svg";
 import { ReactComponent as Lofi } from "../assets/Lofi.svg";
 
+import lofiVid from "../assets/Lofi.mp4";
+import blockyVid from "../assets/Blocky.mp4";
+import chxrryVid from "../assets/Chxrry.mp4";
+
 export const projectInfo = [
   {
     title: "Fitapp",
@@ -66,7 +70,7 @@ export const projectInfo = [
       "A video game created from scratch. Choose different characters to play the game of avoiding falling enemies and use powerups to help gain a higher score. Includes original artwork and soundtrack. Have your audio on to hear the music!",
     comment: "",
     github: "",
-    link: "../assets/Lofi.mp4",
+    link: lofiVid,
     techUsed: "Python Pygame",
     img: <Lofi className="w-full rounded-xl" />,
   },
@@ -86,7 +90,7 @@ export const projectInfo = [
       "A game developed for a project in CSC148. Implemented the moves and layout of the game board. Created a random computer opponent and a 'smart' computer opponent. Focus on trees.",
     comment: "",
     github: "https://github.com/sarahhjchung/Blocky",
-    link: "../assets/Blocky.mp4",
+    link: blockyVid,
     techUsed: "Python Pygame",
     img: "",
   },
@@ -96,7 +100,7 @@ export const projectInfo = [
       "A website for illustrator @chxrry.pie to combine all of her art, social medias, shops, collaborations, giveaways, and more in one place for her followers to easily access. Best to view on a desktop.",
     comment: "This was the very first website I built!",
     github: "",
-    link: "",
+    link: chxrryVid,
     techUsed: "HTML CSS",
     img: <Chxrry className="w-full rounded-xl" />,
   },

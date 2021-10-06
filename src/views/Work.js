@@ -20,19 +20,19 @@ function Work() {
         <div className="container grid grid-cols-2">
           <div className="font-bold space-y-2">
             <h3 className="italic">Table of Contents</h3>
-            <a className="block hover:opacity-50" href="#internship">
+            <a className="block opacity-80 hover:opacity-50" href="#internship">
               What was my internship?
             </a>
-            <a className="block hover:opacity-50" href="#skills">
+            <a className="block opacity-80 hover:opacity-50" href="#skills">
               New skills I learned
             </a>
-            <a className="block hover:opacity-50" href="#impact">
+            <a className="block opacity-80 hover:opacity-50" href="#impact">
               The impact I made on Techintern
             </a>
-            <a className="block hover:opacity-50" href="#growth">
+            <a className="block opacity-80 hover:opacity-50" href="#growth">
               My growth as a student
             </a>
-            <a className="block hover:opacity-50" href="#future">
+            <a className="block opacity-80 hover:opacity-50" href="#future">
               Wow... what’s next?
             </a>
           </div>

@@ -1,6 +1,6 @@
-<svg width="1440" height="1480" viewBox="0 0 1440 1480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect width="1440" height="1480" fill="white"/>
+<rect width="1440" height="1024" fill="#FFFCF8"/>
 <ellipse cx="-0.5" cy="818" rx="592.5" ry="591" fill="url(#paint0_radial)"/>
 <ellipse cx="1343.5" cy="892.5" rx="521.5" ry="481.5" fill="url(#paint1_radial)"/>
 </g>
@@ -11,10 +11,10 @@
 </radialGradient>
 <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1343.5 892.5) rotate(90) scale(481.5 521.5)">
 <stop stop-color="#FF0B0B"/>
-<stop offset="1" stop-color="#DB00FF" stop-opacity="0"/>
+<stop offset="1" stop-color="#CE67FF" stop-opacity="0"/>
 </radialGradient>
 <clipPath id="clip0">
-<rect width="1440" height="1480" fill="white"/>
+<rect width="1440" height="1024" fill="white"/>
 </clipPath>
 </defs>
 </svg>
