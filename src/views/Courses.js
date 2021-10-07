@@ -11,9 +11,7 @@ function Courses() {
         </h1>
         <div className="container space-y-4">
           <div className="border-4 border-green rounded-2xl p-4 shadow-md">
-            <p className="font-bold italic text-center">
-              Program Requirements:
-            </p>
+            <p className="font-bold italic">Program Requirements:</p> <br />
             <ul className="list-none font-semibold opacity-80 list-inside space-y-1">
               <li>CSC108 - Intro to Computer Programming</li>
               <li>CSC148 - Intro to Computer Science</li>
@@ -37,7 +35,7 @@ function Courses() {
             </ul>
           </div>
           <div className="border-4 border-green rounded-2xl p-4 shadow-md">
-            <p className="font-bold italic text-center">Electives:</p>
+            <p className="font-bold italic">Electives:</p> <br />
             <ul className="list-none font-semibold opacity-80 list-inside space-y-1">
               <li>
                 MAT198 - Cryptology: The Mathematics of Secrecy and Security

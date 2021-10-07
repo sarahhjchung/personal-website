@@ -40,6 +40,7 @@ module.exports = {
       teal: "#00EEFF",
       red: "#FB5607",
       purple: "#CE67FF",
+      lightPurple: "#DDA2F9",
     },
     fill: (theme) => ({
       yellow: theme("colors.yellow"),
@@ -48,6 +49,7 @@ module.exports = {
       darkblue: theme("colors.darkblue"),
       red: theme("colors.red"),
       purple: theme("colors.purple"),
+      lightPurple: theme("colors.lightPurple"),
     }),
   },
   variants: {

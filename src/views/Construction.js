@@ -6,7 +6,7 @@ function Construction() {
   return (
     <div className="bg-work min-h-screen bg-cover p-4 sm:p-12">
       <div className="m-auto max-w-screen-lg space-y-12">
-        <NavBar colour="purple" />
+        <NavBar colour="lightPurple" />
         <div className="container italic font-bold">
           <h1 className="leading-tight mb-4">
             This page is under construction!
