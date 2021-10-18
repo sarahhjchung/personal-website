@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import { ReactComponent as MeStanding } from "../assets/MeStanding.svg";
-import { ReactComponent as Up } from "../assets/Up.svg";
+// import { ReactComponent as Up } from "../assets/Up.svg";
 
 function Work() {
   return (
@@ -188,9 +188,9 @@ function Work() {
             </p>
           </div>
         </div>
-        <a href="#">
+        {/* <a href="#">
           <Up className="container mt-12 fill-purple" />
-        </a>
+        </a> */}
       </div>
     </div>
   );
