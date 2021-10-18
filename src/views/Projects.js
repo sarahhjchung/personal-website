@@ -47,7 +47,7 @@ export const projectInfo = [
   {
     title: "LifeOS",
     description:
-      "A chrome extension made at nwHacks 2021 with a customizable timer and background nosies to help improve productivity and increase focus. I worked on the project as the front-end developer.",
+      "A chrome extension made at nwHacks 2021 with a customizable timer and background noises to help improve productivity and increase focus. I worked on the project as the front-end developer.",
     comment: "This was my first hackathon ever!",
     github: "https://github.com/sarahhjchung/lifeos",
     link: "https://devpost.com/software/lifeos",
