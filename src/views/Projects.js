@@ -77,7 +77,7 @@ export const projectInfo = [
   {
     title: "Personal Website V1",
     description:
-      "A website made from scratch with a main focus on using Bootstrap to develop a repsonive website.",
+      "A website made from scratch with a main focus on using Bootstrap to develop a responsive website.",
     comment: "",
     github: "https://github.com/sarahhjchung/sarahhjchung.github.io",
     link: "https://sarahhjchung.github.io/",
